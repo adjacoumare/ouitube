@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- lien icones -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+	integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+	crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- lien css -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- lien js -->
+	<script src="js.js" defer></script>
+	<!-- liens bootstrap -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.min.css">
+	<!-- icone sur la barre de navigation -->
+	<link rel="shortcut icon" href="images site/logo_ok.png" type="image/x-icon">
+	<title>Interface Youtube</title>
+</head>
+<body>
+	<!-- l'entête -->
+	<div class="header">
+		<!-- le menu deroulant -->
+        <div class="menu">
+			<button onclick="myFunction()" class="menubtn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+			<div id="monMenu" class="menu-content">
+			  <a href="#Accueil">Accueil</a>
+			  <a href="#Explorer">Explorer</a>
+			  <a href="#Abonnement">Abonnement</a>
+			</div>
+		</div>
+		<!-- le logo -->
+		<div class="logo">
+			<img src="images site/logo2.png" alt="logoyoutube"> 
+        </div>
+		<!-- la barre de recherche -->
+		<div class="header-search">
+            <form action="">
+                <input type="text" placeholder="Recherche">
+                <button>
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+            </form> 
+        </div>
+		<!-- div des icones à gauche du header -->
+        <div class="header-icons">
+			<span>
+				<i id="icon1" onmouseover="a()" onmouseout="ab()" class="fa fa-bell" aria-hidden="true"></i>
+			</span>
+			<span>
+				<i id="icon2" onmouseover="c()" onmouseout="cd()" class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+			</span>
+			<span>
+				<i id="icon3" onmouseover="e()" onmouseout="ef()" class="fa fa-user-circle" aria-hidden="true"></i>
+			</span>
+			         
+        </div>
+    </div>
+	<!-- La ligne transparente  -->
+	<hr class="ligne">
+	<!-- Le container des videos, images et et paragraphes -->
+	<div class="container text">
+		<!-- ligne1 des videos -->
+		<div class="rows">
+			<div class="col-md-3">
+				<video src="videos/-Burna Boy - On The Low [Official Music Video](360p).mp4" width="270px" height="150px" poster="images site/img1.png " controls></video>
+			</div>
+			<div class="col-md-3">
+				<video src="videos/-Rihanna - Love On The Brain(360p).mp4" width="270px" height="150px"  poster="images site/img2.png" controls></video>
+			</div>
+			<div class="col-md-3">
+				<video src="videos/-Sia - Courage To Change (Official Music Video).mp4" width="270px" height="150px" poster="images site/img3.png" controls></video>
+			</div>
+			<div class="col-md-3">
+				<video src="videos/Beyoncé - Formation (Official Video)-(480p).mp4" width="270px" height="150px" poster="images site/img4.png" controls></video>
+			</div>
+		</div>
+		<!-- ligne1 des paragraphes -->
+		<div class="rows">
+			<div class="col-md-3 text">
+				<p class="text1">Clonez le reseau social facebook enpartant de zero</p>
+				<p > <img src="images site/Capture.PNG"></p>
+                <p class="text2">Web design<br>452 vues, il y'a 21heures</p>
+			</div>
+			<div class="col-md-3  text">
+				<p class="text1">Cours de fitness,profitez des seancesgratuites pour vous reveler</p>
+				<p><img src="images site/Capture.PNG" alt="photo"></p>
+				<p class="text2">Web design<br>452 vues, il y'a 21heures</p>
+			</div>
+			<div class="col-md-3 text">
+				<p class="text1">Decouvrez comment les femmesréagissent dans la societé</p>
+				<p><img src="images site/Capture.PNG" alt="photo"></p>
+                <p class="text2">Web design<br>452 vues, il y'a 21heures</p>
+			</div>
+			<div class="col-md-3 text">
+				<p class="text1">La joie de vivre est à la porté de tous sans exception aucune</p>
+				<p><img src="images site/Capture.PNG" alt="photo"></p>
+				<p class="text2">Web design<br>452 vues, il y'a 21heures</p>
+			</div>
+		</div>	
+	</div>
+	<div class="container">
+		<div class="rows">
+			<!-- ligne2 des videos -->
+			<div class="col-md-3">
+				<video controls width="270" height="150" src="videos/Beyoncé - Halo(360p).mp4" poster="images site/img5.png"></video>
+			</div>
+			<div class="col-md-3">
+				<video controls width="270" height="150" src="videos/Davido - Jowo (Official Video)-(480p).mp4" poster="images site/img6.png"></video>
+			</div>
+			<div class="col-md-3 avant_der">
+				<video controls width="270" height="150" src="videos/DJ Khaled - Wild Thoughts (Official Video) ft. Rihanna, Bryson Tiller(360p).mp4" poster="images site/img7.png"></video>
+			</div>
+			<div class="col-md-3">
+				<video controls width="270" height="150" src="videos/Runtown - For Life (Official Music Video)(360p).mp4" poster="images site/img8.png"></video>
+			</div>
+		</div>
+		<!-- ligne2 des paragraphes -->
+		<div class="rows">
+			<div class="col-md-3 text">
+				<p class="text1">Les sciences mettalurgiques au coeur des innovations</p>
+				<p><img src="images site/Capture.PNG" alt="photo"></p>
+                <p class="text2">Web design<br>452 vues, il y'a 21heures</p>
+			</div>
+			<div class="col-md-3 text">
+				<p class="text1">Decouvrez comment marche internet et le Web</p>
+				<p><img src="images site/Capture.PNG" alt="photo"></p>
+                <p class="text2">Web design<br>452 vues, il y'a 21heures</p>
+			</div>
+			<div class="col-md-3">
+				<p class="text1">Devenez juste expert dans le developpement web frontend</p>
+				<p><img src="images site/Capture.PNG" alt="photo"></p>
+                <p class="text2">Web design<br>452 vues, il y'a 21heures</p>
+			</div>
+			<div class="col-md-3 text">
+				<p class="text1">Decouvrez les astuces pour travailler efficacement au bureau</p>
+				<p><img src="images site/Capture.PNG" alt="photo"></p>
+                <p class="text2">Web design<br>452 vues, il y'a 21heures</p>
+			</div>	
+		</div>
+	</div>
+	<!-- La pagination -->
+	<div class="col-sm-12">
+		<div class="footer">
+			<span class="next round">&#8249;</span>
+			<span class="previous round">1</span>
+			<span class="next round">2</span>
+			<span class="next round">&#8250;</span>
+		</div>
+	</div>
+</body>
+</html>

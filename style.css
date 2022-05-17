@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+/* icone menu */
+
+.fa-bars {
+  color: rgb(186, 187, 189);
+  font-size: 20px;
+ }
+ /* menu deroulant */
+ .menubtn {
+  /* color: white; */
+  background-color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.menubtn:hover,
+.menubtn:focus {
+  background-color: white;
+}
+.menu {
+  position: relative;
+  display: inline-block;
+  z-index: 100;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+}
+
+.menu-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+/* LOGO */
+.logo img {
+  width: 150px;
+  margin-left: 0.5rem;
+}
+ /* l'entête */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 15px;
+}
+/* RECHERCHE */
+
+.header i {
+  padding: 0 7px;
+  cursor: pointer;
+  color: rgb(186, 187, 189);
+  margin: 10px;
+}
+.header-search form {
+  border: 1px solid #ddd;
+  height: 35px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-right: 40px;
+}
+.header-icons {
+  font-size: 20px;
+}
+.header-icons i {
+  color: rgb(186, 187, 189);
+  background-color: white;
+  margin: 2px;
+  border-radius: 50%;
+  width: 30px;
+  padding: 5px;
+}
+.header-search input {
+  width: 500px;
+  padding: 10px;
+  margin: 0;
+  border-radius: 0;
+  border: none;
+  height: 100%;
+  background-color: rgba(196, 193, 201, 0.329);
+  border: 1px solid;
+}
+.header-search button {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  border: none;
+  color: rgb(197, 186, 186);
+  border-radius: 0;
+  border: 1px solid;
+}
+.header-search {
+  margin-right: 7%;
+}
+/* ligne transparente */
+.ligne{
+  margin-top: -2px;
+  /* border: 1px solid; */
+  color: rgb(197, 186, 186);
+  box-shadow: 4px 4px 10px rgba(102, 100, 99, 0.726);
+  /* translate:  rgba(197, 186, 186, 0.7); */
+}
+/* MainBody */
+img {
+  height: 40px;
+  width: 40px;
+  margin-right: 100px;
+  border-radius: 10px;
+}
+/* les videos */
+video {
+  border-radius: 10px;
+}
+/* les texts en dessous des videos */
+.text1 {
+  margin-top: 6px;
+  margin-left: 60px;
+  width: 240px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.text2 {
+  color: rgb(197, 186, 186);
+  margin-left: 60px;
+  margin-top: -40px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+}
+.text {
+  margin-bottom: 30px;
+}
+/* Pagination */
+.footer {
+  /* display: flex; */
+  position: absolute;
+  justify-content: center;
+  margin-left: 43%;
+  float: left;
+  padding-bottom: 50px;
+}
+
+span {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footer span:hover {
+  background-color: white;
+  color: rgb(216, 32, 32);
+  list-style: none;
+  border: 2px solid;
+  cursor: pointer;
+}
+
+.previous {
+  background-color: rgb(94, 91, 91);
+  color: white;
+}
+
+.next {
+  background-color: rgb(216, 32, 32);
+  color: white;
+}
+
+/* #previous {
+  background-color: rgb(216, 32, 32);
+  color: white;
+} */
+
+.round {
+  border-radius: 50%;
+}
